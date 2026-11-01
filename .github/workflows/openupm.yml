@@ -1,0 +1,23 @@
+name: OpenUPM Publish
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
+      - '[0-9]+.[0-9]+.[0-9]+*'
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    name: Notify OpenUPM
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger OpenUPM Scan
+        continue-on-error: true
+        uses: openupm/openupm-action@v1
+        with:
+          package: com.maablock.urp-batch-doctor-lite
+          tag: ${{ github.ref_name }}

@@ -1,0 +1,31 @@
+{
+  "name": "com.maablock.urp-batch-doctor-lite",
+  "version": "1.0.0",
+  "displayName": "URP Batch & Resident Doctor Lite",
+  "description": "Instant SRP Batcher & Unity 6 GPU Resident Drawer readiness scanner. Pinpoints exact CBuffer shader breaks, MaterialPropertyBlock culprits, Forward+ cluster loop blockers, and Static Batching conflicts in milliseconds.",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://github.com/MaaBlock/urp-batch-resident-doctor-lite#readme",
+  "changelogUrl": "https://github.com/MaaBlock/urp-batch-resident-doctor-lite/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/MaaBlock/urp-batch-resident-doctor-lite/blob/main/LICENSE.md",
+  "license": "MIT",
+  "keywords": [
+    "urp",
+    "srp-batcher",
+    "gpu-resident-drawer",
+    "performance",
+    "optimization",
+    "draw-calls",
+    "batching",
+    "unity6",
+    "profiler"
+  ],
+  "author": {
+    "name": "MaaBlock",
+    "url": "https://github.com/MaaBlock"
+  },
+  "dependencies": {
+    "com.unity.render-pipelines.core": "17.0.0",
+    "com.unity.render-pipelines.universal": "17.0.0"
+  }
+}
