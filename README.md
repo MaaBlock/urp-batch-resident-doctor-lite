@@ -69,7 +69,7 @@ When you want **instant visual Scene View heatmaps, 1-click undoable project-wid
 | **Standalone Dark-Mode HTML Executive Dashboard & CI JSON Report** | ❌ | ✅ **Pro** |
 | **1-Click Interactive Demo Scene Generator** | ❌ | ✅ **Pro** |
 
-> 🚀 **Get URP Batch & Resident Doctor Pro on the Unity Asset Store** *(Link updated live upon store approval — launch 50% off!)*
+> 🚀 **[Get URP Batch & Resident Doctor Pro on the Unity Asset Store (`u3d.as/4hrf`)](https://u3d.as/4hrf)** — *50% Launch Discount!*
 
 ---
 
